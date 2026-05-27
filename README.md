@@ -58,15 +58,13 @@ link, also listed above.
 <div style="display:flex;align-items:center;width:100%;">
   <img src="static/EN-Funded-by-the-EU-POS-2.png" alt="EU Logo" width="250px">
   <img src="static/cropped-GD_logo.png" alt="GreenDIGIT Logo" width="110px" style="margin-right:100px">
-</div>
+</div>e
 
 ## Submission Guidelines
 
 Participants should submit their final solution by email as a ZIP file containing the complete submission repository.
 
-Submissions should be sent to: [PKDDChallenge@SoBigData.eu](mailto:PKDDChallenge@SoBigData.eu)
-
-For submission-related questions, participants may also contact: [g.j.teixeiradepinhoferreira@uva.nl](mailto:g.j.teixeiradepinhoferreira@uva.nl)
+Submissions should be sent to: [g.j.teixeiradepinhoferreira@uva.nl](mailto:g.j.teixeiradepinhoferreira@uva.nl)
 
 The ZIP file should include all source code, configuration files, dependency specifications, and instructions required to reproduce the submitted results.
 
