@@ -64,8 +64,11 @@ link, also listed above.
 | ⚠️ ⚠️ <ins>**Submissions must be made through the [submission form](https://forms.gle/4z1itungej5HEkLW9).**</ins> ⚠️ ⚠️
 
 Participants should submit their final solution through the submission form. 
-The submission must include the complete repository (`repository.zip`) and a final report (`report.pdf`) of up to 4 pages.
+The submission must include: 
+- Artefacts ZIP (`artefacts.zip`) which should include all source code, configuration files, dependency specifications, and instructions required to reproduce the submitted results.
+- A final report (`report.pdf`) of up to 4 pages.
 
+**Additional notes:**
 - The repository should include all source code, configuration files, dependency specifications, and instructions required to reproduce the submitted results.
 - Participants are expected to use the official challenge repository as the starting point and preserve the expected structure, interfaces, and evaluation workflow. They may extend the repository with their own model code, dependencies, and documentation.
 
