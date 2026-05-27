@@ -41,7 +41,7 @@ link, also listed above.
 2. Register in the SoBigData platform. An email will be sent, and access will
    be given on **May 1st, 2026**.
 3. Get access to the VRE for the materials and computation resources.
-4. Submit your abstract.
+4. Submit your solution by ~~1s June 2026~~ 7th June 2026 (**firm**).
 5. Complete evaluation, approval, and camera-ready submission.
 
 | Event | Date |
@@ -49,7 +49,7 @@ link, also listed above.
 | Challenge opens | 15th April 2026 |
 | Registration closes | 30th April 2026 |
 | Access to SoBigData VRE | 1st May 2026 |
-| Submission deadline | 1st June 2026 |
+| Submission deadline | ~~1st June 2026~~ 7th June 2026 (**Firm**) |
 | Publish results | 15th June 2026 |
 | Camera-ready deadline | 15th July 2026 |
 
@@ -61,29 +61,25 @@ link, also listed above.
 </div>e
 
 ## Submission Guidelines
+| ⚠️ ⚠️ <ins>**Submissions must be made through the [submission form](https://forms.gle/4z1itungej5HEkLW9).**</ins> ⚠️ ⚠️
 
-Participants should submit their final solution by email as a ZIP file containing the complete submission repository.
+Participants should submit their final solution through the submission form. 
+The submission must include the complete repository (`repository.zip`) and a final report (`report.pdf`) of up to 4 pages.
 
-Submissions should be sent to: [g.j.teixeiradepinhoferreira@uva.nl](mailto:g.j.teixeiradepinhoferreira@uva.nl)
+- The repository should include all source code, configuration files, dependency specifications, and instructions required to reproduce the submitted results.
+- Participants are expected to use the official challenge repository as the starting point and preserve the expected structure, interfaces, and evaluation workflow. They may extend the repository with their own model code, dependencies, and documentation.
 
-The ZIP file should include all source code, configuration files, dependency specifications, and instructions required to reproduce the submitted results.
-
-Participants are expected to use the official challenge repository as the starting point and preserve the expected structure, interfaces, and evaluation workflow. They may extend the repository with their own model code, dependencies, and documentation.
-
-The official evaluation code must remain unchanged. Participants may modify or extend the model implementation, preprocessing, training, and inference code, provided that the expected input/output format used by the evaluation pipeline is preserved.
-
-If the submission file is too large to be sent by email, participants should contact the organising team in advance so that an alternative upload method can be arranged.
+For questions about the submission process, participants should contact the organising team in advance  [PKDDChallenge@SoBigData.uva](mailto:PKDDChallenge@SoBigData.uva).
 
 Each submission must include a README.md file with the following section:
 
 ```
 ## Submission <team_name>
-
 ### Participants
 | Name          | Email                                                 | Affiliation                |
 | ------------- | ----------------------------------------------------- | -------------------------- |
-| Participant 1 | [participant@email.com](mailto:participant@email.com) | Institution / Organisation |
-| Participant 2 | [participant@email.com](mailto:participant@email.com) | Institution / Organisation |
+| Participant 1 | participant1@email.com                                | Institution / Organisation |
+| Participant 2 | participant2@email.com                                | Institution / Organisation |
 
 ### Reproducibility
 Please provide the commands required to reproduce the submission.
