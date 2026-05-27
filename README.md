@@ -53,10 +53,57 @@ link, also listed above.
 | Publish results | 15th June 2026 |
 | Camera-ready deadline | 15th July 2026 |
 
-## Submission Process
+*This work is funded from the European Union’s Horizon Europe research and innovation programme through the [GreenDIGIT project](https://greendigit-project.eu/), under the grant agreement No. [101131207](https://cordis.europa.eu/project/id/101131207)*.
 
-The main submission platform is EasyChair. The EasyChair submission button will
-be made available in the last week of the challenge.
+<div style="display:flex;align-items:center;width:100%;">
+  <img src="static/EN-Funded-by-the-EU-POS-2.png" alt="EU Logo" width="250px">
+  <img src="static/cropped-GD_logo.png" alt="GreenDIGIT Logo" width="110px" style="margin-right:100px">
+</div>
+
+## Submission Guidelines
+
+Participants should submit their final solution by email as a ZIP file containing the complete submission repository.
+
+Submissions should be sent to: [PKDDChallenge@SoBigData.eu](mailto:PKDDChallenge@SoBigData.eu)
+
+For submission-related questions, participants may also contact: [g.j.teixeiradepinhoferreira@uva.nl](mailto:g.j.teixeiradepinhoferreira@uva.nl)
+
+The ZIP file should include all source code, configuration files, dependency specifications, and instructions required to reproduce the submitted results.
+
+Participants are expected to use the official challenge repository as the starting point and preserve the expected structure, interfaces, and evaluation workflow. They may extend the repository with their own model code, dependencies, and documentation.
+
+The official evaluation code must remain unchanged. Participants may modify or extend the model implementation, preprocessing, training, and inference code, provided that the expected input/output format used by the evaluation pipeline is preserved.
+
+If the submission file is too large to be sent by email, participants should contact the organising team in advance so that an alternative upload method can be arranged.
+
+Each submission must include a README.md file with the following section:
+
+```
+## Submission <team_name>
+
+### Participants
+| Name          | Email                                                 | Affiliation                |
+| ------------- | ----------------------------------------------------- | -------------------------- |
+| Participant 1 | [participant@email.com](mailto:participant@email.com) | Institution / Organisation |
+| Participant 2 | [participant@email.com](mailto:participant@email.com) | Institution / Organisation |
+
+### Reproducibility
+Please provide the commands required to reproduce the submission.
+
+#### Training
+Provide the command used to train the model using the provided public training/development data.
+Example:
+python train.py --data path/to/public/training/data --output path/to/model
+
+#### Testing / Inference
+Provide the command used to run the trained model on a test dataset.
+The testing command must allow the organising team to specify the path to the private test dataset used for final evaluation.
+Example:
+python test.py --model path/to/model --test-data path/to/private/test/data --output path/to/predictions
+```
+Submissions should be fully reproducible by the organising team using the provided instructions.
+
+---
 
 *This work is funded from the European Union’s Horizon Europe research and innovation programme through the [GreenDIGIT project](https://greendigit-project.eu/), under the grant agreement No. [101131207](https://cordis.europa.eu/project/id/101131207)*.
 
