@@ -19,3 +19,5 @@ ENV/
 /task-a/lib/
 /task-a/lib64/
 /task-a/pyvenv.cfg
+
+submissions/
